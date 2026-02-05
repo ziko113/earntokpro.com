@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Trading Company</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Segoe UI, Arial, sans-serif;
+  background:#0a1022;
+  color:#e5e7eb;
+  line-height:1.7;
+}
+a{text-decoration:none;color:inherit}
+
+/* NAVBAR */
+nav{
+  position:sticky;top:0;z-index:100;
+  background:#050a18;
+  padding:18px 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid rgba(255,255,255,.06);
+}
+.logo{
+  font-size:22px;
+  font-weight:700;
+  color:#60a5fa;
+}
+nav a{
+  color:#cbd5f5;
+  margin-left:24px;
+  font-size:15px;
+}
+nav a.signup{
+  color:#60a5fa;
+  font-weight:600;
+}
+
+/* HERO */
+.hero{
+  padding:150px 20px;
+  text-align:center;
+  background:
+    linear-gradient(rgba(10,16,34,.88),rgba(10,16,34,.88)),
+    url("https://images.unsplash.com/photo-1551288049-bebda4e38f71");
+  background-size:cover;
+  background-position:center;
+}
+.hero h1{
+  font-size:56px;
+  margin-bottom:18px;
+}
+.hero p{
+  max-width:950px;
+  margin:auto;
+  font-size:19px;
+  color:#c7d2fe;
+}
+.hero a{
+  display:inline-block;
+  margin-top:44px;
+  padding:16px 48px;
+  background:#3b82f6;
+  color:white;
+  font-weight:600;
+  border-radius:10px;
+}
+
+/* SECTIONS */
+section{
+  max-width:1250px;
+  margin:auto;
+  padding:110px 20px;
+}
+h2{
+  font-size:38px;
+  margin-bottom:18px;
+  color:#e0e7ff;
+}
+p.muted{
+  color:#a5b4fc;
+  max-width:950px;
+}
+
+/* IMAGE BLOCK */
+.image-block{
+  height:420px;
+  border-radius:22px;
+  margin-top:50px;
+  background-size:cover;
+  background-position:center;
+}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:34px;
+  margin-top:60px;
+}
+.card{
+  background:#050a18;
+  padding:38px;
+  border-radius:18px;
+  border:1px solid rgba(255,255,255,.05);
+}
+
+/* TOOLS */
+.tool-box{
+  background:#050a18;
+  padding:40px;
+  border-radius:22px;
+  margin-top:40px;
+}
+
+/* TEAM */
+.team{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:32px;
+  margin-top:50px;
+}
+.member{
+  background:#050a18;
+  padding:32px;
+  border-radius:18px;
+  text-align:center;
+  border:1px solid rgba(255,255,255,.05);
+}
+
+/* FAQ */
+.faq-item{
+  background:#050a18;
+  padding:30px;
+  border-radius:16px;
+  margin-bottom:20px;
+  border:1px solid rgba(255,255,255,.05);
+}
+
+/* SIGNUP */
+.signup{
+  background:#050a18;
+  padding:42px;
+  border-radius:24px;
+}
+iframe{
+  width:100%;
+  height:650px;
+  border:none;
+  border-radius:18px;
+  margin-top:26px;
+}
+
+/* FOOTER */
+footer{
+  background:#020617;
+  padding:46px 20px;
+  text-align:center;
+  color:#9ca3af;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">Professional Trading Company</div>
+  <div>
+    <a href="#">Home</a>
+    <a href="#tools">Tools</a>
+    <a href="#team">Team</a>
+    <a href="#join" class="signup">Sign-Up</a>
+    <a href="#support">Support</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Build Confidence Through Trading Knowledge</h1>
+  <p>
+    A professional environment focused on education, analysis,
+    and responsible trading decisions.
+  </p>
+  <a href="#join">Get Started</a>
+</div>
+
+<!-- ABOUT -->
+<section>
+  <h2>Who We Are</h2>
+  <p class="muted">
+    We are committed to building a calm, structured trading environment
+    where individuals can learn market behavior and develop confidence
+    through practice and discipline.
+  </p>
+  <div class="image-block"
+    style="background-image:url('https://images.unsplash.com/photo-1642790551116-18e90b58b6a2')">
+  </div>
+</section>
+
+<!-- TRUST -->
+<section>
+  <h2>Why People Trust This Platform</h2>
+  <p class="muted">
+    Trust is built through clarity, consistency, and responsible guidance.
+    We focus on long-term learning rather than unrealistic promises.
+  </p>
+  <div class="image-block"
+    style="background-image:url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d')">
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section>
+  <h2>Learning & Growth Process</h2>
+  <div class="grid">
+    <div class="card"><h3>Learn</h3><p>Understand how markets operate.</p></div>
+    <div class="card"><h3>Practice</h3><p>Build confidence with structured practice.</p></div>
+    <div class="card"><h3>Analyze</h3><p>Study price action and market data.</p></div>
+    <div class="card"><h3>Improve</h3><p>Grow through experience and review.</p></div>
+  </div>
+  <div class="image-block"
+    style="background-image:url('https://images.unsplash.com/photo-1526378722484-bd91ca387e72')">
+  </div>
+</section>
+
+<!-- TOOLS -->
+<section id="tools">
+  <h2>Trading Analysis Tools</h2>
+
+  <div class="tool-box">
+    <h3>TradingView</h3>
+    <p class="muted">Advanced charting and technical analysis platform.</p>
+    <a href="https://www.tradingview.com" target="_blank" style="color:#60a5fa">
+      Visit TradingView →
+    </a>
+  </div>
+
+  <div class="image-block"
+    style="background-image:url('https://images.unsplash.com/photo-1559526324-593bc073d938')">
+  </div>
+
+  <div class="tool-box">
+    <h3>ForexFactory</h3>
+    <p class="muted">Economic news and forex calendar for market awareness.</p>
+    <a href="https://www.forexfactory.com" target="_blank" style="color:#60a5fa">
+      Visit ForexFactory →
+    </a>
+  </div>
+
+  <div class="image-block"
+    style="background-image:url('https://images.unsplash.com/photo-1556155092-490a1ba16284')">
+  </div>
+</section>
+
+<!-- TEAM -->
+<section id="team">
+  <h2>Our Team</h2>
+  <div class="team">
+    <div class="member"><h3>Market Analyst</h3><p class="muted">Technical analysis focus</p></div>
+    <div class="member"><h3>Education Lead</h3><p class="muted">Learning & guidance</p></div>
+    <div class="member"><h3>Community Support</h3><p class="muted">User assistance</p></div>
+  </div>
+  <div class="image-block"
+    style="background-image:url('https://images.unsplash.com/photo-1519389950473-47ba0277781c')">
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-item">
+    <h4>Is trading guaranteed?</h4>
+    <p class="muted">No. Trading involves risk and requires education.</p>
+  </div>
+  <div class="faq-item">
+    <h4>Can beginners join?</h4>
+    <p class="muted">Yes. Beginners should start with learning and demo practice.</p>
+  </div>
+  <div class="faq-item">
+    <h4>Which tools are recommended?</h4>
+    <p class="muted">TradingView and ForexFactory are widely used.</p>
+  </div>
+</section>
+
+<!-- TELEGRAM -->
+<section>
+  <h2>Join Our Telegram Community</h2>
+  <p class="muted">
+    Market insights, learning content, and support are shared
+    through our Telegram channel.
+  </p>
+  <a href="https://t.me/pro_trader_91" target="_blank"
+     style="color:#3b82f6;font-size:20px;font-weight:600">
+     👉 Join Telegram Channel
+  </a>
+  <div class="image-block"
+    style="background-image:url('https://images.unsplash.com/photo-1518779578993-ec3579fee39f')">
+  </div>
+</section>
+
+<!-- SUPPORT -->
+<section id="support">
+  <h2>Support</h2>
+  <p class="muted">
+    If you need assistance, our support team is available via Telegram.
+  </p>
+  <div class="image-block"
+    style="height:320px;
+    background-image:url('https://images.unsplash.com/photo-1525182008055-f88b95ff7980')">
+  </div>
+</section>
+
+<!-- SIGN UP -->
+<section id="join">
+  <h2>Create Your Account</h2>
+  <p class="muted">Explore the platform responsibly.</p>
+  <div class="signup">
+    <iframe
+      src="https://static.olymptrade.com/lands/affiliate-new-form2en/index.html?useFormTheme=dark&useRoundedButtons=false&affiliate_id=2549014&no_redirect=1">
+    </iframe>
+  </div>
+</section>
+
+<footer>
+  Risk warning: Trading involves risk. Education and preparation are essential.<br>
+  © 2026 Professional Trading Company
+</footer>
+
+</body>
+</html>
+
